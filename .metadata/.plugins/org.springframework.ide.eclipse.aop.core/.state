@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="e3-manager-service"/>
+<aop-project name="e3-manager-controller"/>
+<aop-project name="e3-manager-dao"/>
+</aop-reference-model>

@@ -1,0 +1,11 @@
+package cn.e3.controller;
+
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+public class DispatcherPage {
+	@RequestMapping("{pagePath}")
+	public String dispatcherPage(@PathVariable String pagePath){
+		return pagePath;
+	}
+}
